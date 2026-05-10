@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Plugin-root wrapper: Claude Code adds this dir to PATH while the plugin
+# is enabled, so the agent can call `imagen ...` from anywhere.
+set -e
+SCRIPT="${BASH_SOURCE[0]:-$0}"
+while [ -L "$SCRIPT" ]; do SCRIPT="$(readlink "$SCRIPT")"; done
+DIR="$(cd "$(dirname "$SCRIPT")" && pwd)"
+exec bun "$DIR/../skills/imagen/imagen.ts" "$@"

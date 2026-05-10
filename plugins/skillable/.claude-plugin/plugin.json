@@ -1,0 +1,13 @@
+{
+  "name": "skillable",
+  "version": "1.0.0",
+  "description": "Generate and edit images with OpenAI gpt-image-2. Wraps the official openai CLI.",
+  "author": {
+    "name": "Leo Schobel",
+    "email": "schobele@icloud.com",
+    "url": "https://github.com/schobele"
+  },
+  "homepage": "https://github.com/schobele/skillable",
+  "license": "MIT",
+  "keywords": ["image-generation", "openai", "gpt-image-2", "ai", "skill", "claude-code"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "skillable",
+  "description": "A library of Claude Code plugins.",
+  "owner": {
+    "name": "Leo Schobel",
+    "email": "schobele@icloud.com",
+    "url": "https://github.com/schobele"
+  },
+  "plugins": [
+    {
+      "name": "skillable",
+      "version": "1.0.0",
+      "description": "Generate and edit images with OpenAI gpt-image-2.",
+      "source": "./plugins/skillable",
+      "author": {
+        "name": "Leo Schobel",
+        "email": "schobele@icloud.com"
+      },
+      "homepage": "https://github.com/schobele/skillable",
+      "keywords": ["image-generation", "openai", "gpt-image-2", "claude-code"]
+    }
+  ]
+}
